@@ -2,9 +2,6 @@ package Equip;
 
 import java.io.Serializable;
 
-/*
- * hält daten
- */
 public class EinheitenSave extends Einheiten implements Serializable{
 
     public int lvl;

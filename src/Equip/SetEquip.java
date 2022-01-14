@@ -3,8 +3,8 @@ package Equip;
 import java.io.Serializable;
 
 /*
- * hält daten über ein ausrüstungsset.
- * hält viele methoden um differenziert auskunft über das set zu erteilen
+ * hält daten über ein ausrüstungsset
+ * hält viele methoden um differenziert auskunft das set zu erteilen
  */
 public class SetEquip implements Serializable{
 

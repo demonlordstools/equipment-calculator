@@ -2,9 +2,6 @@ package Equip;
 
 import java.util.ArrayList;
 
-/*
- * hält daten
- */
 public class Helm extends Equip{
 
     public Helm (int ap, int vp, int hp, int mp, int kraft, boolean fk, boolean fire, boolean earth, boolean ice, boolean air, int opfer, String name)
@@ -24,9 +21,6 @@ public class Helm extends Equip{
         list.add( new Helm(3, 16, 19, 0, 18, false, false, false, false, false, 1, "Eisenhelm"));
         list.add( new Helm(13, 28, 25, 0, 30, false, false, false, false, false, 1, "Schaedelplatte"));
         list.add( new Helm(15, -8, -10, 0, 10, false, false, false, false, false, 1, "Spiegelhelm"));
-        list.add( new Helm(7, 15, 12, 0, 14, false, false, false, false, false, 2, "Golemhelm"));
-        list.add( new Helm(5, 5, 5, 8, 16, false, false, false, false, true, 2, "Wirbelnder Schleier"));
-        list.add( new Helm(6, 20, 0, 0, 22, false, true, false, false, false, 3, "Phoenixfederhaube"));
         list.add( new Helm(15, 55, 45, 0, 52, false, false, true, false, false, 3, "Totenschaedelhelm"));
         list.add( new Helm(10, 60, 50, 0, 50, false, false, false, false, false, 3, "Normannenhelm"));
         list.add( new Helm(35, 50, 30, 20, 75, false, true, false, false, false, 4, "Gehoernter Helm"));

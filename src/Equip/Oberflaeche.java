@@ -751,7 +751,7 @@ public class Oberflaeche extends JFrame {
 //		if(a.width >= 1220 && a.height < 1000)
 //		{setBounds(50 , 50 , 920 , (int)(a.height*0.75f));}
 //		if(a.width < 1220 && a.height >= 1000)
-//		{setBounds(50 , 50 , (int)(a.width*0.75f) , 830);}	
+//		{setBounds(50 , 50 , (int)(a.width*0.75f) , 830);}
 //		if(a.width < 1220 && a.height < 1000)
 //		{setBounds(50 , 50 , (int)(a.width*0.75f) , (int)(a.height*0.75f));}
         contentPane = new JPanel();
@@ -794,7 +794,7 @@ public class Oberflaeche extends JFrame {
         panel_1.setLayout(null);
 
 
-        JLabel lbltextzeiletextzeile = new JLabel("<html><div align=\"center\"><body>Willkommen werte Demonlords - und Ladys,<br><br>Auf jedem Schriftzug ist ein Tooltipp f\u00FCr leichteres Verst\u00E4ndniss der Funktionen.<br>Bei Fragen, Bugs, Problemen , konstruktiver Kritik und Ideen die man noch einbauen k\u00F6nnte : <br> \nigm an Inelucki oder im IRC ine|WAHN.     Viel Spass damit. </body></div></html>");
+        JLabel lbltextzeiletextzeile = new JLabel("<html><div align=\"center\"><body>Willkommen werte Demonlords - und Ladys,<br><br>Auf jedem Schriftzug ist ein Tooltipp f\u00FCr leichteres Verst\u00E4ndniss der Funktionen.<br>Ursprünglich entwickelt von Inelucki. Zuletzt aktualisiert am 14.01.2022 von Skinny.<br>Bei Fragen, Bugs, Problemen, konstruktiver Kritik und Ideen die man noch einbauen k\u00F6nnte: <br> \nNachricht ingame oder im Discord an Skinny. Viel Spass damit. </body></div></html>");
         lbltextzeiletextzeile.setHorizontalAlignment(SwingConstants.LEFT);
         lbltextzeiletextzeile.setVerticalAlignment(SwingConstants.TOP);
         lbltextzeiletextzeile.setBounds(93, 6, 695, 102);
@@ -1156,7 +1156,7 @@ public class Oberflaeche extends JFrame {
         btnStart.setBounds(508, 438, 117, 29);
         panel_1.add(btnStart);
 
-        JLabel lblVersion = new JLabel("<html><body><b>Version 2.1</b></body></html>");
+        JLabel lblVersion = new JLabel("<html><body><b>Version 3.0</b></body></html>");
         lblVersion.setBounds(730, 6, 99, 16);
         panel_1.add(lblVersion);
 

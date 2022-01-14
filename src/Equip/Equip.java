@@ -2,9 +2,6 @@ package Equip;
 
 import java.io.Serializable;
 
-/*
- * hält daten
- */
 public class Equip implements Serializable{
 
     public int AP;
