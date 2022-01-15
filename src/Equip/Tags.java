@@ -11,9 +11,4 @@ public enum Tags {
 
     NIX,
 
-    FEUER,
-    WIND,
-    ERDE,
-    EIS
-
 }
